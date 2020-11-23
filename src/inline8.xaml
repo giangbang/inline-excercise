@@ -82,20 +82,20 @@
                 Storyboard.TargetName="ActualTimeHour"
                 Storyboard.TargetProperty="Angle" 
                 From="0.0" To="360.0" 
-                Duration="12:00:0.00" RepeatBehavior="Forever"
+                Duration="0:04:0.00" RepeatBehavior="Forever"
                 />
 				<DoubleAnimation 
                 Storyboard.TargetName="ActualTimeSecond"
                 Storyboard.TargetProperty="Angle" 
                 From="0.0" To="360.0" 
-                Duration="00:01:0.00" RepeatBehavior="Forever"
+                Duration="00:0:20.00" RepeatBehavior="Forever"
                 />
 				<!-- THE HOUR HAND, currently rotating at a frenetic pace for demo's sake... -->
 				<DoubleAnimation 
                 Storyboard.TargetName="ActualTimeMinute"
                 Storyboard.TargetProperty="Angle" 
                 From="0.0" To="360.0" 
-                Duration="01:00:0.00" RepeatBehavior="Forever"
+                Duration="0:0:40.00" RepeatBehavior="Forever"
                 />
             </Storyboard>
         </BeginStoryboard>
